@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "2048",
+    "description": "Join the numbers and get to the 2048 tile!",
+    "thumbnail": "https://picsum.photos/seed/2048/400/300",
+    "iframeUrl": "https://play2048.co/",
+    "category": "Puzzle"
+  },
+  {
+    "id": "2",
+    "title": "Hextris",
+    "description": "Fast-paced puzzle game inspired by Tetris.",
+    "thumbnail": "https://picsum.photos/seed/hextris/400/300",
+    "iframeUrl": "https://hextris.io/",
+    "category": "Arcade"
+  },
+  {
+    "id": "3",
+    "title": "Flappy Bird (Clone)",
+    "description": "Fly through the pipes without hitting them.",
+    "thumbnail": "https://picsum.photos/seed/flappy/400/300",
+    "iframeUrl": "https://wayou.github.io/flappybird/",
+    "category": "Arcade"
+  },
+  {
+    "id": "4",
+    "title": "Doodle Jump (Clone)",
+    "description": "Jump as high as you can!",
+    "thumbnail": "https://picsum.photos/seed/doodle/400/300",
+    "iframeUrl": "https://doodlejump.io/",
+    "category": "Platformer"
+  },
+  {
+    "id": "5",
+    "title": "Snake",
+    "description": "Classic snake game.",
+    "thumbnail": "https://picsum.photos/seed/snake/400/300",
+    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html",
+    "category": "Classic"
+  },
+  {
+    "id": "6",
+    "title": "Pac-Man",
+    "description": "Classic arcade game.",
+    "thumbnail": "https://picsum.photos/seed/pacman/400/300",
+    "iframeUrl": "https://macek.github.io/google_pacman/",
+    "category": "Classic"
+  },
+  {
+    "id": "7",
+    "title": "Tetris",
+    "description": "The classic block-stacking puzzle game.",
+    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
+    "iframeUrl": "https://tetris.com/play-tetris",
+    "category": "Puzzle"
+  },
+  {
+    "id": "8",
+    "title": "Cookie Clicker",
+    "description": "The original idle game where you bake cookies.",
+    "thumbnail": "https://picsum.photos/seed/cookie/400/300",
+    "iframeUrl": "https://orteil.dashnet.org/cookieclicker/",
+    "category": "Idle"
+  },
+  {
+    "id": "9",
+    "title": "Paper.io 2",
+    "description": "Capture as much territory as possible.",
+    "thumbnail": "https://picsum.photos/seed/paperio/400/300",
+    "iframeUrl": "https://paper-io.com/",
+    "category": "IO"
+  }
+]
