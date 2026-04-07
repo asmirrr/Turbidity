@@ -23,9 +23,10 @@ export default function App() {
   const [selectedGame, setSelectedGame] = useState(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
-  const categories = ['All', ...Array.from(new Set(gamesData.map(g => g.category)))];
+  const categories = ['All', ...Array.from(new Set((gamesData || []).map(g => g.category)))];
 
   const filteredGames = useMemo(() => {
+    if (!gamesData || !Array.isArray(gamesData)) return [];
     return gamesData.filter(game => {
       const matchesSearch = game.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                           game.description.toLowerCase().includes(searchQuery.toLowerCase());
